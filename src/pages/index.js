@@ -1,6 +1,6 @@
 import React, { Component, Suspense } from 'react';
 import { Route, withRouter, Switch, Redirect } from 'react-router-dom';
-import AboutUs from './aboutus/AboutUs';
+import AboutUs from './aboutus';
 import HomePage from './home';
 
 
