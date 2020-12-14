@@ -1,13 +1,27 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
+import React, { Component, Suspense } from 'react';
+import { BrowserRouter as Router, Route, withRouter, Switch, Redirect } from 'react-router-dom';
+import AppLayout from './components/Layout';
+import MainApp from "./MainApp"
+import $ from "jquery";
+class App extends Component {
+  render() {
+    const { match } = this.props;
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-    </div>
-  );
+    return (
+      <Router>
+        <Suspense>
+          <Switch>
+            <Route
+              path={`/`}
+              render={props => <MainApp {...props} />}
+            />
+
+            <Redirect to="/error" />
+          </Switch>
+        </Suspense>
+      </Router>
+    );
+  }
 }
 
 export default App;
