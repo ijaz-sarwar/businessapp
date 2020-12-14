@@ -1,8 +1,6 @@
-import React from 'react';
-import AboutUs from '../pages/aboutus/AboutUs';
-import SendUs from '../pages/send/index.js';
-import '../styles/navbar.css';
-function Navbar() {
+import React from 'react'
+
+function SendUs() {
     return (
         <div>
             <div id="preloader">
@@ -18,17 +16,22 @@ function Navbar() {
                     <div className="container">
                         <div className="header-row">
                             <div className="header-column justify-content-start">
+                                {/* Logo
+                    ============================= */}
                                 <div className="logo"> <a className="d-flex" href="index.html" title="Payyed - HTML Template"><img src="images/logo.png" alt="Payyed" /></a> </div>
-                                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav"> <span /> <span /> <span /> </button>{/* Collapse Button end */}
+                                {/* Logo end */}
+                                {/* Collapse Button
+                    ============================== */}
+                                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav"> <span /> <span /> <span /> </button>
+                                {/* Collapse Button end */}
                                 {/* Primary Navigation
                     ============================== */}
                                 <nav className="primary-menu navbar navbar-expand-lg">
                                     <div id="header-nav" className="collapse navbar-collapse">
                                         <ul className="navbar-nav mr-auto">
-                                            <li><Link to={'/SendUs'}>SendUs</Link ></li>
-                                            <li><a href="landing-page-receive.html">Receive</a></li>
-                                            <li><Link to={'/AboutUs'}>AboutUs</Link ></li>
-                                            <li><a href="fees.html">Fees</a></li>
+                                            <li><a href="dashboard.html">Dashboard</a></li>
+                                            <li><a href="transactions.html">Transactions</a></li>
+                                            <li className="active"><a href="send-money.html">Send/Request</a></li>
                                             <li><a href="help.html">Help</a></li>
                                             <li className="dropdown"> <a className="dropdown-toggle" href="#">Features</a>
                                                 <ul className="dropdown-menu">
@@ -161,17 +164,9 @@ function Navbar() {
                                         </ul>
                                     </div>
                                 </nav>
-                                {/* Primary Navigation end */}
-                            </div>
-                        </div>
-                    </div>
-                </header>
-            </div>
-        </div>
+                            </div></div></div></header></div></div>
     );
 }
 
 
-
-
-export default Navbar;
+export default SendUs;
