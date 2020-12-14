@@ -19,7 +19,7 @@ function Header() {
         <nav class="primary-menu navbar navbar-expand-lg">
           <div id="header-nav" class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-              <li><a href="landing-page-send.html">Send</a></li>
+              <li><Link to="send-us">Send</Link></li>
               <li><a href="landing-page-receive.html">Receive</a></li>
               <li><Link to="about-us">About Us</Link></li>
               <li><Link to="fees">Fees</Link></li>

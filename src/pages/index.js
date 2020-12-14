@@ -2,12 +2,9 @@ import React, { Component, Suspense } from 'react';
 import { Route, withRouter, Switch, Redirect } from 'react-router-dom';
 import AboutUs from './aboutus';
 import HomePage from './home';
-<<<<<<< HEAD
 import SendUs from './send';
-=======
 import Fees from './fees';
 import Help from './help';
->>>>>>> e0ea101628185145bf770ab71ceea4f89b90d765
 
 
 class App extends Component {
