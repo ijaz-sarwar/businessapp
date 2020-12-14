@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUs from '../pages/aboutus/AboutUs';
 import '../styles/navbar.css';
 function Navbar() {
     return (
@@ -25,7 +26,7 @@ function Navbar() {
                                         <ul className="navbar-nav mr-auto">
                                             <li><a href="landing-page-send.html">Send</a></li>
                                             <li><a href="landing-page-receive.html">Receive</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><Link to={'/AboutUs'}>AboutUs</Link ></li>
                                             <li><a href="fees.html">Fees</a></li>
                                             <li><a href="help.html">Help</a></li>
                                             <li className="dropdown"> <a className="dropdown-toggle" href="#">Features</a>
