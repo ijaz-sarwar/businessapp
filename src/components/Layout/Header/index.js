@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 function Header() {
     return (
 <header id="header">
@@ -7,7 +8,7 @@ function Header() {
       <div class="header-column justify-content-start"> 
         {/* <!-- Logo
         ============================= --> */}
-        <div class="logo"> <a class="d-flex" href="index.html" title="Payyed - HTML Template"><img src="images/logo.png" alt="Payyed" /></a> </div>
+        <div class="logo"> <Link class="d-flex" to="/" title="Payyed - HTML Template"><img src="images/logo.png" alt="Payyed" /></Link> </div>
         {/* <!-- Logo end --> 
         <!-- Collapse Button
         ============================== --> */}
@@ -20,7 +21,7 @@ function Header() {
             <ul class="navbar-nav mr-auto">
               <li><a href="landing-page-send.html">Send</a></li>
               <li><a href="landing-page-receive.html">Receive</a></li>
-              <li><a href="about-us.html">About Us</a></li>
+              <li><Link to="about-us">About Us</Link></li>
               <li><a href="fees.html">Fees</a></li>
               <li><a href="help.html">Help</a></li>
               <li class="dropdown"> <a class="dropdown-toggle" href="#">Features</a>

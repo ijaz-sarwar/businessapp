@@ -15,8 +15,6 @@ class App extends Component {
               path={`/`}
               render={props => <MainApp {...props} />}
             />
-
-            <Redirect to="/error" />
           </Switch>
         </Suspense>
       </Router>

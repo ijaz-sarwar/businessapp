@@ -7,6 +7,7 @@ import HomePage from './home';
 class App extends Component {
   render() {
     const { match } = this.props;
+console.log(match.url, 'match.url match.url', `${match.url}/about-us`);
 
     return (
       <Suspense>
@@ -21,11 +22,11 @@ class App extends Component {
             render={props => <HomePage {...props} />}
           />
           <Route
-            path={`${match.url}/AboutUs`}
+            path={`${match.url}about-us`}
             render={props => <AboutUs {...props} />}
           />
 
-          <Redirect to="/error" />
+          {/* <Redirect to="/error" /> */}
         </Switch>
       </Suspense>
     );
