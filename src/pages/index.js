@@ -2,6 +2,8 @@ import React, { Component, Suspense } from 'react';
 import { Route, withRouter, Switch, Redirect } from 'react-router-dom';
 import AboutUs from './aboutus';
 import HomePage from './home';
+import Fees from './fees';
+import Help from './help';
 
 
 class App extends Component {
@@ -24,6 +26,17 @@ console.log(match.url, 'match.url match.url', `${match.url}/about-us`);
           <Route
             path={`${match.url}about-us`}
             render={props => <AboutUs {...props} />}
+          />
+
+<Route
+            path={`${match.url}fees`}
+            render={props => <Fees {...props} />}
+          />
+
+
+<Route
+            path={`${match.url}help`}
+            render={props => <Help {...props} />}
           />
 
           {/* <Redirect to="/error" /> */}

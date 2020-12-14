@@ -22,8 +22,8 @@ function Header() {
               <li><a href="landing-page-send.html">Send</a></li>
               <li><a href="landing-page-receive.html">Receive</a></li>
               <li><Link to="about-us">About Us</Link></li>
-              <li><a href="fees.html">Fees</a></li>
-              <li><a href="help.html">Help</a></li>
+              <li><Link to="fees">Fees</Link></li>
+              <li><Link to="help">Help</Link></li>
               <li class="dropdown"> <a class="dropdown-toggle" href="#">Features</a>
                 <ul class="dropdown-menu">
                   <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Headers</a>
