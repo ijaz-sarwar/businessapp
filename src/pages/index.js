@@ -5,6 +5,7 @@ import HomePage from './home';
 import SendUs from './send';
 import Fees from './fees';
 import Help from './help';
+<<<<<<< HEAD
 import Recieve from './recieve';
 import LogIn from './loginnn/login';
 import LogIn2 from './loginnn/login2';
@@ -20,6 +21,8 @@ import Darkversion from './features/navigationdropdown/darkversion';
 import Primaryversion from './features/navigationdropdown/primaryversion';
 import Alternateversion from './features/secondnavigation/alternateversion';
 import Defaultversion from './features/secondnavigation/defaultversion';
+=======
+>>>>>>> d10ea04832c20de57b51ae0f23fe8deeadc3ec75
 
 
 class App extends Component {

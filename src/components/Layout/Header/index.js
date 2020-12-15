@@ -16,6 +16,7 @@ function Header() {
 
             {/* <!-- Primary Navigation
         ============================== --> */}
+<<<<<<< HEAD
             <nav class="primary-menu navbar navbar-expand-lg">
               <div id="header-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
@@ -25,6 +26,27 @@ function Header() {
                   <li><Link to="fees">Fees</Link></li>
                   <li><Link to="help">Help</Link></li>
                   <li class="dropdown"> <a class="dropdown-toggle" href="#">Features</a>
+=======
+        <nav class="primary-menu navbar navbar-expand-lg">
+          <div id="header-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+              <li><Link to="send-us">Send</Link></li>
+              <li><a href="landing-page-receive.html">Receive</a></li>
+              <li><Link to="about-us">About Us</Link></li>
+              <li><Link to="fees">Fees</Link></li>
+              <li><Link to="help">Help</Link></li>
+              <li class="dropdown"> <a class="dropdown-toggle" href="#">Features</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Headers</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="index.html">Light Version (Default)</a></li>
+                      <li><a class="dropdown-item" href="feature-header-dark.html">Dark Version</a></li>
+                      <li><a class="dropdown-item" href="feature-header-primary.html">Primary Version</a></li>
+                      <li><a class="dropdown-item" href="index-2.html">Transparent Version</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Navigation DropDown</a>
+>>>>>>> d10ea04832c20de57b51ae0f23fe8deeadc3ec75
                     <ul class="dropdown-menu">
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Headers</a>
                         <ul class="dropdown-menu">
