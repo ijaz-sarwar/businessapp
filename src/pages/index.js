@@ -5,24 +5,21 @@ import HomePage from './home';
 import SendUs from './send';
 import Fees from './fees';
 import Help from './help';
-<<<<<<< HEAD
 import Recieve from './recieve';
-import LogIn from './loginnn/login';
-import LogIn2 from './loginnn/login2';
-import LogIn3 from './loginnn/login3';
-import SignIn from './signinnn/signin';
-import SignIn2 from './signinnn/signin2';
-import SignIn3 from './signinnn/signin3';
-import HeaderDark from './features/header/headerdark';
-import HeaderPrimary from './features/header/headerprimary';
-import HeaderTransparent from './features/header/headertransparent';
-import LightverSion from './features/navigationdropdown/lightversion';
-import Darkversion from './features/navigationdropdown/darkversion';
-import Primaryversion from './features/navigationdropdown/primaryversion';
-import Alternateversion from './features/secondnavigation/alternateversion';
-import Defaultversion from './features/secondnavigation/defaultversion';
-=======
->>>>>>> d10ea04832c20de57b51ae0f23fe8deeadc3ec75
+// import LogIn from './loginnn/login';
+// import LogIn2 from './loginnn/login2';
+// import LogIn3 from './loginnn/login3';
+// import SignIn from './signinnn/signin';
+// import SignIn2 from './signinnn/signin2';
+// import SignIn3 from './signinnn/signin3';
+// import HeaderDark from './features/header/headerdark';
+// import HeaderPrimary from './features/header/headerprimary';
+// import HeaderTransparent from './features/header/headertransparent';
+// import LightverSion from './features/navigationdropdown/lightversion';
+// import Darkversion from './features/navigationdropdown/darkversion';
+// import Primaryversion from './features/navigationdropdown/primaryversion';
+// import Alternateversion from './features/secondnavigation/alternateversion';
+// import Defaultversion from './features/secondnavigation/defaultversion';
 
 
 class App extends Component {
@@ -66,7 +63,7 @@ class App extends Component {
             path={`${match.url}recieve`}
             render={props => <Recieve {...props} />}
           />
-          <Route
+          {/* <Route
             path={`${match.url}login`}
             render={props => <LogIn {...props} />}
           />
@@ -90,10 +87,10 @@ class App extends Component {
             path={`${match.url}signin3`}
             render={props => <SignIn3 {...props} />}
           />
-          <Route
+           <Route
             path={`${match.url}headerdark`}
             render={props => <HeaderDark{...props} />}
-          />
+          /> 
           <Route
             path={`${match.url}headerprimary`}
             render={props => <HeaderPrimary{...props} />}
@@ -121,7 +118,7 @@ class App extends Component {
           <Route
             path={`${match.url}defaultversion`}
             render={props => <Defaultversion{...props} />}
-          />
+          /> */}
 
 
 
