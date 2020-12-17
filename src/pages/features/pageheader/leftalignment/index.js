@@ -77,8 +77,8 @@ function LeftAlignment() {
                                     <p className="text-muted">CEO &amp; Founder</p>
                                     <ul className="social-icons social-icons-sm d-inline-flex">
                                         <li className="social-icons-facebook"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
-                                        <li className="social-icons-google"><a data-toggle="tooltip" href target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
+                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
+                                        <li className="social-icons-google"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -87,9 +87,9 @@ function LeftAlignment() {
                                     <h3>James Maxwell</h3>
                                     <p className="text-muted">Co-Founder</p>
                                     <ul className="social-icons social-icons-sm d-inline-flex">
-                                        <li className="social-icons-facebook"><a data-toggle="tooltip" href target="_blank" title data-original-title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
-                                        <li className="social-icons-google"><a data-toggle="tooltip" href target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
+                                        <li className="social-icons-facebook"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Facebook"><i className="fab fa-facebook-f" /></a></li>
+                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
+                                        <li className="social-icons-google"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -98,9 +98,9 @@ function LeftAlignment() {
                                     <h3>Ruby Clinton</h3>
                                     <p className="text-muted">Chief Marketing Officer</p>
                                     <ul className="social-icons social-icons-sm d-inline-flex">
-                                        <li className="social-icons-facebook"><a data-toggle="tooltip" href target="_blank" title data-original-title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
-                                        <li className="social-icons-google"><a data-toggle="tooltip" href target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
+                                        <li className="social-icons-facebook"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Facebook"><i className="fab fa-facebook-f" /></a></li>
+                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
+                                        <li className="social-icons-google"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -109,9 +109,9 @@ function LeftAlignment() {
                                     <h3>Miky Sheth</h3>
                                     <p className="text-muted">General Manager</p>
                                     <ul className="social-icons social-icons-sm d-inline-flex">
-                                        <li className="social-icons-facebook"><a data-toggle="tooltip" href target="_blank" title data-original-title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
-                                        <li className="social-icons-google"><a data-toggle="tooltip" href target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
+                                        <li className="social-icons-facebook"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Facebook"><i className="fab fa-facebook-f" /></a></li>
+                                        <li className="social-icons-twitter"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Twitter"><i className="fab fa-twitter" /></a></li>
+                                        <li className="social-icons-google"><a data-toggle="tooltip" href="#" target="_blank" title data-original-title="Google"><i className="fab fa-google" /></a></li>
                                     </ul>
                                 </div>
                             </div>
