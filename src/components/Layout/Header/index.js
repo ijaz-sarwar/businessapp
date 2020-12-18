@@ -50,23 +50,23 @@ function Header() {
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Page Headers</a>
                         <ul class="dropdown-menu">
                           <li><Link class="dropdown-item" to="leftalignment">Left Alignment</Link></li>
-                          <li><a class="dropdown-item" href="feature-page-header-center-alignment.html">Center Alignment</a></li>
-                          <li><a class="dropdown-item" href="feature-page-header-light.html">Light Version</a></li>
-                          <li><a class="dropdown-item" href="feature-page-header-dark.html">Dark Version</a></li>
-                          <li><a class="dropdown-item" href="feature-page-header-primary.html">Primary Version</a></li>
-                          <li><a class="dropdown-item" href="feature-page-header-custom-background.html">Custom Background</a></li>
-                          <li><a class="dropdown-item" href="feature-page-header-custom-background-with-transparent-header.html">Custom Background 2</a></li>
+                          <li><Link class="dropdown-item" to="centeralignment">Center Alignment</Link></li>
+                          <li><Link class="dropdown-item" to="lightversion">Light Version</Link></li>
+                          <li><Link class="dropdown-item" to="darkversion">Dark Version</Link></li>
+                          <li><Link class="dropdown-item" to="primaryversion">Primary Version</Link></li>
+                          <li><Link class="dropdown-item" to="custombackground">Custom Background</Link></li>
+                          <li><Link class="dropdown-item" to="custombackground2">Custom Background 2</Link></li>
                         </ul>
                       </li>
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Footer</a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="index.html">Light Version Default</a></li>
-                          <li><a class="dropdown-item" href="index-2.html">Alternate Version</a></li>
-                          <li><a class="dropdown-item" href="feature-footer-dark.html">Dark Version</a></li>
-                          <li><a class="dropdown-item" href="feature-footer-primary.html">Primary Version</a></li>
+                          <li><Link class="dropdown-item" to="lightversiondefault">Light Version Default</Link></li>
+                          <li><Link class="dropdown-item" to="alternateversionfooter">Alternate Version</Link></li>
+                          <li><Link class="dropdown-item" to="darkversionfooter">Dark Version</Link></li>
+                          <li><Link class="dropdown-item" to="primaryversiondefooter">Primary Version</Link></li>
                         </ul>
                       </li>
-                      <li><a class="dropdown-item" href="feature-layout-boxed.html">Layout Boxed</a></li>
+                      <li><Link class="dropdown-item" to="layoutboxed">Layout Boxed</Link></li>
                     </ul>
                   </li>
                   <li class="dropdown dropdown-mega"> <a class="dropdown-toggle" href="#">Pages</a>
@@ -84,9 +84,9 @@ function Header() {
                             </div>
                             <div class="col-lg-3"> <span class="sub-title">Account</span>
                               <ul class="dropdown-mega-submenu">
-                                <li><a class="dropdown-item" href="profile.html">My Profile</a></li>
-                                <li><a class="dropdown-item" href="profile-cards-and-bank-accounts.html">Cards & Bank Accounts</a></li>
-                                <li><a class="dropdown-item" href="profile-notifications.html">Notifications</a></li>
+                                <li><Link class="dropdown-item" to="myprofile">My Profile</Link></li>
+                                <li><Link class="dropdown-item" to="cashbank">Cards & Bank Accounts</Link></li>
+                                <li><Link class="dropdown-item" to="notification">Notifications</Link></li>
                                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Login</a>
                                   <ul class="dropdown-menu">
                                     <li><Link class="dropdown-item" to="login">Login Page 1</Link></li>
@@ -105,46 +105,46 @@ function Header() {
                             </div>
                             <div class="col-lg-3"> <span class="sub-title">Dashboard</span>
                               <ul class="dropdown-mega-submenu">
-                                <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
-                                <li><a class="dropdown-item" href="transactions.html">Transactions</a></li>
+                                <li><Link class="dropdown-item" to="dashboard">Dashboard</Link></li>
+                                <li><Link class="dropdown-item" to="transaction">Transactions</Link></li>
                                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Send Money</a>
                                   <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="send-money.html">Send Money</a></li>
-                                    <li><a class="dropdown-item" href="send-money-confirm.html">Send Money Confirm</a></li>
-                                    <li><a class="dropdown-item" href="send-money-success.html">Send Money Success </a></li>
+                                    <li><Link class="dropdown-item" to="sendmoney">Send Money</Link></li>
+                                    <li><Link class="dropdown-item" to="sendmoneyconfirm">Send Money Confirm</Link></li>
+                                    <li><Link class="dropdown-item" to="sendmoneysuccess">Send Money Success </Link></li>
                                   </ul>
                                 </li>
-                                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Request Money</a>
+                                <li class="dropdown"><a class="dropdown-item dropdown-toggle" to="#">Request Money</a>
                                   <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="request-money.html">Request Money</a></li>
-                                    <li><a class="dropdown-item" href="request-money-confirm.html">Request Money Confirm</a></li>
-                                    <li><a class="dropdown-item" href="request-money-success.html">Request Money Success </a></li>
+                                    <li><Link class="dropdown-item" to="requestmoney">Request Money</Link></li>
+                                    <li><Link class="dropdown-item" to="requestmoneyconfirm">Request Money Confirm</Link></li>
+                                    <li><Link class="dropdown-item" to="requestmoneysuccess">Request Money Success </Link></li>
                                   </ul>
                                 </li>
                                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Deposit Money</a>
                                   <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="deposit-money.html">Deposit Money</a></li>
-                                    <li><a class="dropdown-item" href="deposit-money-confirm.html">Deposit Money Confirm</a></li>
-                                    <li><a class="dropdown-item" href="deposit-money-success.html">Deposit Money Success </a></li>
+                                    <li><Link class="dropdown-item" to="depositemoney">Deposit Money</Link></li>
+                                    <li><Link class="dropdown-item" to="depositemoneyconfirm">Deposit Money Confirm</Link></li>
+                                    <li><Link class="dropdown-item" to="depositemoneysuccess">Deposit Money Success </Link></li>
                                   </ul>
                                 </li>
                                 <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Withdraw Money</a>
                                   <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="withdraw-money.html">Withdraw Money</a></li>
-                                    <li><a class="dropdown-item" href="withdraw-money-confirm.html">Withdraw Money Confirm</a></li>
-                                    <li><a class="dropdown-item" href="withdraw-money-success.html">Withdraw Money Success </a></li>
+                                    <li><Link class="dropdown-item" to="withdrawmoney">Withdraw Money</Link></li>
+                                    <li><Link class="dropdown-item" to="withdrawmoneyconfirm">Withdraw Money Confirm</Link></li>
+                                    <li><Link class="dropdown-item" to="withdrawmoneysucces">Withdraw Money Success </Link></li>
                                   </ul>
                                 </li>
                               </ul>
                             </div>
                             <div class="col-lg-3"> <span class="sub-title">Others</span>
                               <ul class="dropdown-mega-submenu">
-                                <li><a class="dropdown-item" href="about-us.html">About Us</a></li>
-                                <li><a class="dropdown-item" href="fees.html">Fees</a></li>
-                                <li><a class="dropdown-item" href="help.html">Help</a></li>
-                                <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
-                                <li><a class="dropdown-item" href="elements.html">Elements</a></li>
-                                <li><a class="dropdown-item" href="elements-2.html">Elements 2</a></li>
+                                <li><Link class="dropdown-item" to="about-us">About Us</Link></li>
+                                <li><Link class="dropdown-item" to="fees">Fees</Link></li>
+                                <li><Link class="dropdown-item" to="help">Help</Link></li>
+                                <li><Link class="dropdown-item" to="contactus">Contact Us</Link></li>
+                                <li><Link class="dropdown-item" to="elements">Elements</Link></li>
+                                <li><Link class="dropdown-item" to="elements2">Elements 2</Link></li>
                               </ul>
                             </div>
                           </div>
